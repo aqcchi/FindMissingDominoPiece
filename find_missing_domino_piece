@@ -6,7 +6,6 @@ def find_missing_domino(some_domino_set):
     known_pieces = set(some_domino_set)
 
     # Find the missing piece
-
     missing_piece = list(set(all_possible_pieces) - known_pieces)
 
     if len(missing_piece) == 1:
